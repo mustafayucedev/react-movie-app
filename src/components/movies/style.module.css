@@ -53,6 +53,11 @@
     margin-bottom: 10px;
 }
 
+.language {
+    text-transform: capitalize;
+}
+
+.language,
 .popularity {
     color: #919191;
     font-size: 14px;

@@ -36,6 +36,8 @@ function Index() {
     getMovies();
   },[])
 
+  console.log(movies)
+
   
 
   return (

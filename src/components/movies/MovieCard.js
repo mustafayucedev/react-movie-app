@@ -16,11 +16,12 @@ function MovieCard( {data} ) {
             </div>
             <div className={style.average}> {data.vote_average} </div>
             <div className={style.overview}>
-              <p> {data.overview} </p>  
+              <p> {data.overview ? data.overview : "Açıklama Bulunamadı.."} </p>  
             </div>
           </div>
           <div className={style.text}>
             <div className={style.title}> {data.title} </div>
+            <div className={style.language}> Orjinal Dil: {data.original_language} </div>
             <div className={style.popularity}> İzlenme Sayısı : {data.popularity} </div>
             <div className={style.date}> Yayınlanma Tarihi : {data.release_date} </div>
           </div>
