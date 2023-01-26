@@ -36,13 +36,13 @@
     font-size: 13px;
     letter-spacing: 1px;
     padding: 0 120px 0 20px;
-    color: #939393bb;
+    color: #7c7c7c;
     border: 1px solid #333;
     border-radius: 35px;
 }
 
 .input::placeholder {
-    color: #939393bb;
+    color: #7c7c7c;
 }
 
 .button {
